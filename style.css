@@ -29,7 +29,7 @@ input {
 
 .image {
     border-radius: 4px;
-    width: 60%;
+    width: 80%;
     background-image: url(media/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg);
 
     position: relative;
@@ -49,8 +49,6 @@ input {
 .page-container {
     margin: 10px;
 }
-
-
 
 .call-to-action,
 .form-container,
