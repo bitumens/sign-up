@@ -24,6 +24,7 @@ label {
 
 input {
     width: 200px;
+    margin-right: 40px;
 }
 
 .image {
@@ -48,6 +49,8 @@ input {
 .page-container {
     margin: 10px;
 }
+
+
 
 .call-to-action,
 .form-container,
