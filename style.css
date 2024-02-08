@@ -17,7 +17,14 @@ body {
 form  { display: table}
 p     { display: table-row}
 label { display: table-cell}
-input { display: table-cell}
+
+label {
+    padding: 10px;
+}
+
+input {
+    width: 200px;
+}
 
 .image {
     border-radius: 4px;
