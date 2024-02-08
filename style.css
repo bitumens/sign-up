@@ -8,6 +8,7 @@ body {
     display: flex;
     height: 100vh;
 
+    font-family: 'Source Code Pro';
     background-color: #AFDEDC;
 }
 
@@ -38,4 +39,8 @@ body {
 .action-container {
     margin: 10px;
     padding: 10px;
+}
+
+span.highlight {
+    color: #F0F7EE;
 }
