@@ -7,6 +7,7 @@
 body {
     display: flex;
     height: 100vh;
+    font-size: 16.125px;
 
     font-family: 'Source Code Pro';
     background-color: #050505;
@@ -15,7 +16,7 @@ body {
 
 .image {
     border-radius: 4px;
-    width: 40%;
+    width: 60%;
     background-image: url(media/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg);
 
     position: relative;
@@ -23,8 +24,9 @@ body {
 }
 
 .banner {
-    font-size: 40px;
+    font-size: 50px;
     background-color: #C4D7F2;
+    color: black;
     opacity: 0.6;
 
     position: absolute;
@@ -37,12 +39,22 @@ body {
 
 .call-to-action,
 .form-container,
-.action-container {
+.action-container,
+.title {
     margin: 10px;
     padding: 10px;
 }
 
+.call-to-action {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 span.highlight {
     color: #F0F7EE;
-    font-weight: 700;
+    font-weight: bold;
 }
