@@ -5,36 +5,39 @@
     border: 3px solid red;
 }
 
+body {
+    display: flex;
+    height: 100vh;
+
+    background-color: #AFDEDC;
+
+}
+
 div {
     border: 1px solid red;
 }
 
 .image {
     border: 1px solid blue;
-    background-image: url(media/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg);
     width: 40%;
+    background-image: url(media/ilya-pavlov-OqtafYT5kTw-unsplash.jpeg);
+
     position: relative;
+    height: 100vh;
 }
 
 .banner {
+    font-size: 40px;
+    background-color: #C4D7F2;
+    opacity: 0.6;
+
     position: absolute;
     float: left;
-}
-
-body {
-    display: flex;
 }
 
 .page-container {
     margin: 10px;
     padding: 10px;
     opacity: 1;
-    background-color: white;
     height: 100vh;
-}
-
-.banner {
-    font-size: 40px;
-    background-color: aliceblue;
-    position: relative;
 }
