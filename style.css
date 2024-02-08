@@ -9,7 +9,8 @@ body {
     height: 100vh;
 
     font-family: 'Source Code Pro';
-    background-color: #AFDEDC;
+    background-color: #050505;
+    color: #DDDBCB
 }
 
 .image {
@@ -43,4 +44,5 @@ body {
 
 span.highlight {
     color: #F0F7EE;
+    font-weight: 700;
 }
