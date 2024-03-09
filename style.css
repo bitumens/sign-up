@@ -32,12 +32,22 @@ input {
 button {
     padding: 3px;
     margin: 10px;
-    background-color: #C4D7FE;
+    background-color: #F0F7EE;
     border-radius: 3px;
 
     font-size: 1.0rem;
     font-family: 'Source Code Pro';
     font-weight: bold;
+
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #C4D7FE;
+}
+
+button:active {
+    background-color: #F0F7EE;
 }
 
 input:focus {
