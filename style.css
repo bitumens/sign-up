@@ -29,6 +29,17 @@ input {
     padding: 3px;
 }
 
+button {
+    padding: 3px;
+    margin: 10px;
+    background-color: #C4D7FE;
+    border-radius: 3px;
+
+    font-size: 1.0rem;
+    font-family: 'Source Code Pro';
+    font-weight: bold;
+}
+
 input:focus {
     background-color: #C4D7FE;
     outline: #C4D7F2;
