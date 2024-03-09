@@ -29,9 +29,15 @@ input {
     padding: 3px;
 }
 
-input:invalid {
+input:focus {
+    background-color: #C4D7FE;
+    outline: #C4D7F2;
+}
+
+input:user-invalid {
     border-color: red;
 }
+
 
 .image {
     border-radius: 4px;
