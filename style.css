@@ -27,6 +27,8 @@ input {
     width: 200px;
     margin-right: 40px;
     padding: 3px;
+
+    transition-duration: 0.2s;
 }
 
 button {
