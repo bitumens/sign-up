@@ -23,8 +23,14 @@ label {
 }
 
 input {
+    box-sizing: border-box;
     width: 200px;
     margin-right: 40px;
+    padding: 3px;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 .image {
